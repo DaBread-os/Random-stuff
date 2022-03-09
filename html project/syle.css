@@ -1,0 +1,173 @@
+body {
+    background: coral; 
+    color: white;
+    overflow: hidden;
+    overflow-x:scroll;
+    Overflow-y:scroll;
+  }
+  #myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+    
+  }
+  #myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+    
+  }
+#icon {
+  display: flex;
+   
+  align-items: center;
+  flex-direction: row;  
+}
+#img1 {
+  border-width: 8px;
+  border-color: white;
+  border-style:solid;
+  position: absolute;
+  top: 360px;
+  left: 30px;
+}
+#divTOPBAR {
+ 
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;  
+  position:absolute;
+  top:2px;
+  right:0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 3mm;
+  width: 300px;
+  margin-top: 10px;
+}
+#Map {
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+    
+}
+#Berlin {
+  position: absolute;
+  left: 700px;
+  background-color: coral;
+
+  border-width:2px;
+  border-style:solid;
+  border-color:rgb(255, 255, 255); 
+  height: 40%;
+  width: 50%;
+  
+ 
+}
+#Map2 {
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 18px;
+}
+#Seattle {
+  position: absolute;
+  left: 700px;
+  background-color: coral;
+
+  border-width:2px;
+  border-style:solid;
+  border-color:rgb(255, 255, 255); 
+  height: 40%;
+  width: 50%;
+}
+#Map3 {
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+#Map4 {
+  background-color: coral;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+#aboutTXT {
+  position: absolute;
+  top: 340;
+  left: 30px;
+}
+.List {
+  margin-left: 40px;
+}
+.List2 {
+  margin-left: 70px;
+  font-size: larger;
+}
+.TextHead {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  margin-left: 20px;
+}
+#bruh {
+  font-family: sans-serif;
+  font-size: x-large;
+  display: flex;
+  justify-content: start;
+  margin-left: 2mm;
+}
+#divAbout {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+ margin-left: 200px;
+ font-size: x-large;
+}
+
+button {
+  position: relative;
+  border: none;
+  background-color: white;
+  color: coral;
+  width: 2cm;
+  height: 1cm;
+  font-size: large;
+  
+}
+#button2 {
+    margin-left: 25cm;
+ 
+}
+#button3 {
+  margin-left: 5mm;
+ 
+}
+#button4 {
+  margin-left: 5mm;
+  
+}
+#backdrop {
+  color:black;
+  background-color: white; 
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  background-image: url(https://wallpapersmug.com/large/fb6f49/sunset-horizon-mountains-valley.jpg);
+  background-position: center;
+  
+}
+#iframe1 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
